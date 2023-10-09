@@ -14,10 +14,6 @@
       />
 
       <ol-tile-layer>
-        <ol-source-xyz url="https://basemapstyles-api.arcgis.com/arcgis/rest/services/styles/v2/styles?type=style&token="/>
-      </ol-tile-layer>
-
-      <ol-tile-layer>
         <ol-source-xyz url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}" />
       </ol-tile-layer>
 
