@@ -1,17 +1,31 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
+  <PageFullScreen>
+    <ol-map
+      :loadTilesWhileAnimating="true"
+      :loadTilesWhileInteracting="true"
+      class="full-height full-width"
     >
-  </q-page>
+      <ol-view
+        ref="view"
+        :center="center"
+        :rotation="rotation"
+        :zoom="zoom"
+        :projection="projection"
+      />
+
+      <ol-tile-layer>
+        <ol-source-osm />
+      </ol-tile-layer>
+    </ol-map>
+  </PageFullScreen>
 </template>
 
-<script>
-import { defineComponent } from 'vue'
+<script setup>
+import { ref } from 'vue'
+import PageFullScreen from 'components/PageFullScreen.vue'
 
-export default defineComponent({
-  name: 'IndexPage'
-})
+const center = ref([1655116, 5806870])
+const projection = ref('EPSG:3857')
+const zoom = ref(9)
+const rotation = ref(0)
 </script>
