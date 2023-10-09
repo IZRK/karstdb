@@ -25,6 +25,16 @@
           </ol-style>
         </ol-source-vector>
       </ol-vector-layer>
+      <ol-tile-layer>
+        <ol-source-xyz url="https://vectortileservices5.arcgis.com/cc2FnLJwNvtYzBo4/arcgis/rest/services/Slovenian_carbonate_rocks_(Gostinčar_2016)/VectorTileServer/tile/{z}/{y}/{x}.pbf"/>
+        <ol-style>
+          <ol-style-stroke color="black" :width="2"></ol-style-stroke>
+          <ol-style-fill color="rgba(0,0,0,0.2)"></ol-style-fill>
+        </ol-style>
+      </ol-tile-layer>
+      <ol-webgl-tile-layer>
+        <ol-source-xyz ref="cavesSource" url="https://services7.arcgis.com/V2VriwTjJDabpGg6/ArcGIS/rest/services/2022_marec_export_ekataster_tile_layer/MapServer/WMTS/tile/1.0.0/2022_marec_export_ekataster_tile_layer/default/default028mm/{z}/{y}/{x}.png"/>
+      </ol-webgl-tile-layer>
     </ol-map>
   </PageFullScreen>
 </template>
