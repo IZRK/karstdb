@@ -25,7 +25,7 @@
     >
       <q-list>
         <q-item-label header>
-          Browse data
+          Browse data. I know you want to.
         </q-item-label>
 
         <EssentialLink
@@ -50,44 +50,44 @@ const linksList = [
   {
     title: 'Karst geology',
     caption: 'Everything you need on karst geology',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    icon: 'public',
+    link: ''
   },
   {
     title: 'Karst geomorphology',
-    caption: '',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    caption: 'The shape of karst',
+    icon: 'shape_line',
+    link: ''
   },
   {
     title: 'Speleology',
-    caption: 'Caves',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    caption: 'Here be dragons!',
+    icon: 'scuba_diving',
+    link: ''
   },
   {
     title: 'Karst hydrogeology',
-    caption: 'Where the underground river flows',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    caption: 'Where the underground river flows ♫',
+    icon: 'water',
+    link: ''
   },
   {
     title: 'Karst biology and microbiology',
-    caption: 'Critters, bugs and bacterias',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    caption: 'Critters, bugs and brain eating amoebas',
+    icon: 'coronavirus',
+    link: ''
   },
   {
     title: 'Ecology',
-    caption: '',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
+    caption: 'What did one limestone rock say to the other? "You make me feel so sedimental!"',
+    icon: 'compost',
+    link: ''
   },
   {
     title: 'Karst development',
     caption: 'Building new caves, theme parks and underground casinos',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
+    icon: 'construction',
+    link: ''
   }
 ]
 
