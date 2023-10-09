@@ -22,7 +22,7 @@
           <ol-source-vector-tile url="https://vectortileservices5.arcgis.com/cc2FnLJwNvtYzBo4/arcgis/rest/services/Slovenian_carbonate_rocks_(Gostinčar_2016)/VectorTileServer/tile/{z}/{y}/{x}.pbf" :format="mvtFormat">
             <ol-style>
               <ol-style-fill color="rgba(0,0,0,0.2)"></ol-style-fill>
-              <ol-style-stroke color="black" :width="1"></ol-style-stroke>
+              <ol-style-stroke color="rgba(0,0,0,0)" :width="0"></ol-style-stroke>
             </ol-style>
           </ol-source-vector-tile>
         </ol-vector-tile-layer>
